@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first web page</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>iKnowCars.com</h1>
+    <p>...so you don't have to.</p>
+    <h2>Credit application</h2>
+    <form action="/creditapp">
+        <pre>I am looking to</pre>
+        <label for="leasenew">
+        <input id="leasenew" value="leasenew" type="radio" checked name=leasenew-buynew-buyused>Lease a New Car
+        </label>
+        <label for="buynew">
+            <input id="buynew" value="buynew" type="radio" name="leasenew-buynew-buyused">Buy a New Car
+        </label>
+        <label for="buyused">
+            <input id="buyused" value="buyused" type="radio" name="leasenew-buynew-buyused">Buy an Used Car
+        </label>
+        <hr>
+        <h4>Personal information</h4>
+        <hr>
+        <pre>First Name*</pre>
+        <input type="text" required placeholder="First Name">
+        <pre>Last Name*</pre>
+        <input type="text" required placeholder="Last Name">
+        <pre>Date of Birth*</pre>
+        <input type="text" required placeholder="MM/DD/YYYY">
+        <pre>Driver Lisence State*</pre>
+        <select>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA" selected>California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+        </select>
+        <pre>Driver License Number*</pre>
+        <input type="text" required placeholder="Driver License #">
+        <pre>I am an/a*</pre>
+        <label for="citizen">
+            <input id="citizen" value="citiezen" type="radio" value name="citizen-perm-resident" checked>U.S. Citizen
+        </label>
+        <label for="perm-resident">
+            <input id="prem-resident" value="perm-resident" type="radio" name="citizen-perm-resident"> Permenent Resident
+        </label>
+        <label for="other">
+            <input id="other" value="otehr" type="radio" name="citizen-perm-resident">Other
+        </label>
+
+
+        <pre>Social Security Number*</pre>
+        <input type="text" required placeholder="SSN">
+        <pre>Phonre Number*</pre>
+        <input type="text" required placeholder="Phone #">
+        <pre>Email Address*</pre>
+        <input type="text" required placeholder="email">
+        <pre>Address*</pre>
+        <input type="text" required placeholder="Street Adress">
+        <pre>City*</pre>
+        <input type="text" required placeholder="City">
+        <pre>State*</pre>
+        <select>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA" selected>California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+        </select>
+        <pre>ZIP Code*</pre>
+        <input type="text" required placeholder="ZIP Code">
+        <pre>Years at Current Address*</pre>
+        <input type="text" required placeholder="Years at Address">
+        <br>
+        <br>
+        <hr>
+        <h4>Employment Information</h4>
+        <hr>
+        <pre>Occupation/Title*</pre>
+        <input type="text" required placeholder="Occupation">
+        <pre>Present Employer(Company Name)*</pre>
+        <input type="text" required placeholder="Employer/Company">
+        <pre>Years Employed*</pre>
+        <input type="text" required placeholder="Years Employed">
+        <pre>Employer/Company Phone Number*</pre>
+        <input type="text" required placeholder="Phone Number">
+        <pre>Employer/Company Address*</pre>
+        <input type="text" required placeholder="Street Adress">
+        <pre>City*</pre>
+        <input type="text" required placeholder="City">
+        <pre>State*</pre>
+        <select>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA" selected>California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+        </select>
+        <pre>ZIP Code*</pre>
+        <input type="text" required placeholder="ZIP Code">
+        <pre>Total Gross Income*</pre>
+        <input type="text" required placeholder="Income in USD">
+        <lable for="weekly">
+            <input id="weekly" value="weekly" type="radio" name="weekly-biweekly-monthly-yearly" checked>Weekly
+        </lable>
+        <label for="biweekly">
+            <input id="biweekly" value="biweekly" type="radio" name="weekly-biweekly-monthly-yearly">Biweekly
+        </label>
+        <label for="monthly">
+            <input id="monthly" value="monthly" type="radio" name="weekly-biweekly-monthly-yearly">Monthly
+        </label>
+        <label for="yearly">
+            <input id="yearly" value="yearly" type="radio" name="weekly-biweekly-mothly-yearly">Yearly
+        </label>
+        <hr>
+        <pre>Marital Status*</pre>
+        <select>
+            <option value="select" selected>Select Status</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+        </select>
+        <pre>Monthly Mortgage/Rent Payment*</pre>
+        <input type="text" required placeholder="Mortgage/Rent Payment">
+        <label for="own">
+                <input id="own" value="own" type="radio" name="own-rent" checked>Own
+            </label>
+        <label for="rent">
+                <input id="rent" value="rent" type="radio" name="own-rent">Rent
+        </label>
+        <br>
+        <br>
+        <hr>
+        <pre>*required field</pre>
+        <button type="submit">Submit the application</button>
+    </form>
+</body>
+</html>
